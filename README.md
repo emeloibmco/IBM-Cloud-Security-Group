@@ -21,7 +21,7 @@
 <br />
 
 ## Protocolo TCP para Iperf
-Para medir el ancho de banda entre un cliente y un servidor *TCP*, debe configurar las reglas de entrada en el grupo de seguridad de la *VPC* cuya *VSI* funcionará como servidor. Para ello realice:
+Para medir el ancho de banda entre un cliente y un servidor *TCP*, se deben configurar las reglas de entrada en el grupo de seguridad de la *VPC* cuya *VSI* funcionará como servidor. Para ello realice:
 
 <br />
 
@@ -41,9 +41,6 @@ Para medir el ancho de banda entre un cliente y un servidor *TCP*, debe configur
 <br />
 
 <p align="center"><img width="700" src="https://github.com/emeloibmco/IBM-Cloud-Security-Group/blob/main/Images/Reglas%20iperf3.gif"></p>
-<br />
-
-> NOTA: puede realizar la configuración de las reglas en ambas *VSI*, en caso de que desee realizar la prueba intercambiando los roles de servidor y de cliente.
 <br />
 
 ## Referencias :mag:
