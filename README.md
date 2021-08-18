@@ -19,8 +19,7 @@
 <br />
 
 ## Protocolo TCP para SSH :computer:
-El protocolo *Secure Shell (SSH)* se utiliza para acceder a máquinas remotas
-
+El protocolo *Secure Shell (SSH)* se utiliza para acceder a máquinas remotas a través de una red y manejar por completo el sistema mediante un intérprete de comandos.  Este protocolo facilita las comunicaciones seguras entre dos sistemas usando una arquitectura cliente/servidor y permite a los usuarios conectarse a un host remotamente. A diferencia de otros protocolos de comunicación remota, *SSH* encripta la sesión de conexión impidiendo que se pueda obtener contraseñas no encriptadas.
 
 Cuando se crea una *VPC* en *IBM Cloud*, de forma predeterminada se implementan grupos de seguridad que definen las reglas de ```IP```, permitiendo el tráfico ```TCP``` de entrada solo en el puerto 22 para SSH.
 
