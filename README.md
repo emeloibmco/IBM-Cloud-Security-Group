@@ -3,9 +3,9 @@
 
 ## Índice  📰
 1. [Pre-Requisitos](#Pre-Requisitos-bookmark_tabs)
-2. [Protocolo ICMP para ping](#Protocolo-ICMP-para-ping)
-3. [Protocolo TCP para SSH](#Protocolo-TCP-para-SSH)
-4. [Protocolo TCP para Iperf](#Protocolo-TCP-para-Iperf)
+2. [Protocolo ICMP para ping](#Protocolo-ICMP-para-ping-heavy_check_mark)
+3. [Protocolo TCP para SSH](#Protocolo-TCP-para-SSH-computer)
+4. [Protocolo TCP para Iperf](#Protocolo-TCP-para-Iperf-chart_with_downwards_trend)
 5. [Referencias](#Referencias-mag)
 6. [Autores](#Autores-black_nib)
 <br />
@@ -14,13 +14,13 @@
 * Contar con una cuenta en <a href="https://cloud.ibm.com/"> IBM Cloud </a>.
 <br />
 
-## Protocolo ICMP para ping
+## Protocolo ICMP para ping :heavy_check_mark:
 <br />
 
-## Protocolo TCP para SSH
+## Protocolo TCP para SSH :computer:
 <br />
 
-## Protocolo TCP para Iperf
+## Protocolo TCP para Iperf :chart_with_downwards_trend:
 Para medir el ancho de banda entre un cliente y un servidor *TCP*, se deben configurar las reglas de entrada en el grupo de seguridad de la *VPC* cuya *VSI* funcionará como servidor. Para ello realice:
 
 <br />
