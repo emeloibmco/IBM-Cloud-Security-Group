@@ -28,7 +28,7 @@ Existen tipos de mensajes en *ICMP*, el campo de tipo identifica el tipo de mens
 Esta regla ya viene incluida en el grupo de seguridad por defecto asigando a su VSI y se encuentra especificado en las reglas de entrada.
 <br />
 
-<p align="center"><img width="700" src="https://github.com/emeloibmco/IBM-Cloud-Security-Group/blob/main/Images/ping.PNG"></p>
+<p align="center"><img width="700" src="https://github.com/emeloibmco/IBM-Cloud-Security-Group/blob/main/Images/ping.png"></p>
 
 <br />
 
