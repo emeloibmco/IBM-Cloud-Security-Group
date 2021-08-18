@@ -52,6 +52,7 @@ Este puerto no viene configurado de forma previa en la *VPC*, por tanto, si dese
 <br />
 
 ## Referencias :mag:
+* <a href="https://cloud.ibm.com/docs/security-groups?topic=security-groups-managing-sg">Managing security groups</a>.
 <br />
 
 ## Autores :black_nib:
