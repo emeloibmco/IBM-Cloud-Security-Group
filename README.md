@@ -19,7 +19,11 @@
 <br />
 
 ## Protocolo TCP para SSH :computer:
-El protocolo SSH
+El protocolo *Secure Shell (SSH)* se utiliza para acceder a máquinas remotas
+
+<br />
+
+<p align="center"><img width="700" src="https://github.com/emeloibmco/IBM-Cloud-Security-Group/blob/main/Images/ssh.PNG"></p>
 <br />
 
 ## Protocolo TCP para Iperf :chart_with_downwards_trend:
