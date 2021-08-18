@@ -21,7 +21,7 @@
 <br />
 
 ## Protocolo TCP para Iperf :chart_with_downwards_trend:
-El comando ```iperf``` es una herramienta de la línea de comandos usada en el diagnóstico de problemas de velocidad de red. Este comando mide la capacidad máxima de procesamiento de red que puede manejar un servidor. Es particularmente útil cuando se experimentan problemas de velocidad en la red, debido a que se puede utilizar para determinar cuál servidor es incapaz de llegar al rendimiento máximo. Actualmente hay dos ramas independientes de ```iperf``` que se desarrollan en paralelo: ```iperf2``` e ```iperf3```. La funcionalidad de estas herramientas es en su mayoría compatible, pero utilizan diferentes puertos de red de forma predeterminada. En ```iperf2``` es 5001, en ```iperf3``` es 5201.
+El comando ```iperf``` es una herramienta de la línea de comandos usada en el diagnóstico de problemas de velocidad de red. Este comando mide la capacidad máxima de procesamiento de red que puede manejar un servidor. Es particularmente útil cuando se experimentan problemas de velocidad en la red, debido a que se puede utilizar para determinar cuál servidor es incapaz de llegar al rendimiento máximo. Actualmente hay dos ramas independientes de ```iperf``` que se desarrollan en paralelo: ```iperf2``` e ```iperf3```. La funcionalidad de estas herramientas es en su mayoría compatible, pero utilizan diferentes puertos de red de forma predeterminada. En ```iperf2``` es 5001, mientras que en ```iperf3``` es 5201.
 
 Si se desea medir el ancho de banda entre un cliente y un servidor *TCP*, se deben configurar las reglas de entrada en el grupo de seguridad de la *VPC* cuya *VSI* funcionará como servidor. Para ello se debe realizar lo siguiente:
 
