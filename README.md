@@ -1,4 +1,7 @@
 # IBM Cloud - Security Group ☁🔒
+*IBM Cloud* le permite usar grupos de seguridad para declarar un conjunto de reglas de filtro de IP que definen cómo manejar el tráfico entrante y saliente a las interfaces públicas y privadas de una instancia de servidor virtual.
+
+En esta guía se muestra la creación de una regla que permita la entrada de tráfico en una máquina cliente en la que se esta proando el comanod ```iperf```, tambien se explican las reglas de ```SSH``` y ```ping``` que ya vienen configuradas por defecto en el grupo de seguridad.
 <br />
 
 ## Índice  📰
@@ -16,6 +19,17 @@
 <br />
 
 ## Protocolo ICMP para ping :heavy_check_mark:
+*Internet Control Message Protocol (ICMP)* es una red de protocolo que es responsable de reportar errores a través de la generación y envío de mensajes a la dirección IP de origen cuando hay problemas de red que son encontrados por el sistema. 
+
+Existen tipos de mensajes en *ICMP*, el campo de tipo identifica el tipo de mensaje enviado por el host o la puerta de enlace. En este caso, el tipo 8 se refiere a Echo Request (Ping Request).
+
+```Ping``` es un comando  de diagnóstico que permite hacer una verificación del estado de una determinada conexión de un host local con al menos un equipo remoto contemplado en una red de tipo TCP/IP. Sirve para determinar si una dirección IP específica o host es accesible desde la red o no.
+
+Esta regla ya viene incluida en el grupo de seguridad por defecto asigando a su VSI y se encuentra especificado en las reglas de entrada.
+<br />
+
+<p align="center"><img width="700" src="https://github.com/emeloibmco/IBM-Cloud-Security-Group/blob/main/Images/ping.PNG"></p>
+
 <br />
 
 ## Protocolo TCP para SSH :computer:
