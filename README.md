@@ -3,7 +3,7 @@
 
 ## Índice  📰
 1. [Pre-Requisitos](#Pre-Requisitos-bookmark_tabs)
-2. [Protocolo ICMP](#Protocolo-ICMP)
+2. [Protocolo ICMP para ping](#Protocolo-ICMP-para-ping)
 3. [Protocolo TCP para SSH](#Protocolo-TCP-para-SSH)
 4. [Protocolo TCP para Iperf](#Protocolo-TCP-para-Iperf)
 5. [Referencias](#Referencias-mag)
@@ -14,7 +14,7 @@
 * Contar con una cuenta en <a href="https://cloud.ibm.com/"> IBM Cloud </a>.
 <br />
 
-## Protocolo ICMP
+## Protocolo ICMP para ping
 <br />
 
 ## Protocolo TCP para SSH
