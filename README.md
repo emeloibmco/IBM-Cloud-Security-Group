@@ -1,7 +1,7 @@
 # IBM Cloud - Security Group ☁🔒
 *IBM Cloud* le permite usar grupos de seguridad para declarar un conjunto de reglas de filtro de IP que definen cómo manejar el tráfico entrante y saliente a las interfaces públicas y privadas de una instancia de servidor virtual.
 
-En esta guía se muestra la creación de una regla que permita la entrada de tráfico en una máquina cliente en la que se esta proando el comanod ```iperf```, tambien se explican las reglas de ```SSH``` y ```ping``` que ya vienen configuradas por defecto en el grupo de seguridad.
+En esta guía se muestra la creación de una regla que permita la entrada de tráfico en una máquina cliente en la que se esta probando el comando ```iperf```, tambien se explican las reglas de ```SSH``` y ```ping``` que ya vienen configuradas por defecto en el grupo de seguridad.
 <br />
 
 ## Índice  📰
