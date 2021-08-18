@@ -22,7 +22,7 @@
 El protocolo *Secure Shell (SSH)* se utiliza para acceder a máquinas remotas
 
 
-Cuando se implementa una *VPC*, de forma predeterminada *IBM* proporciona grupos de seguridad que definen las reglas de ```IP``` permitiendo el tráfico ```TCP``` de entrada solo en el puerto 22 para SSH.
+Cuando se crea una *VPC* en *IBM Cloud*, de forma predeterminada se implementan grupos de seguridad que definen las reglas de ```IP```, permitiendo el tráfico ```TCP``` de entrada solo en el puerto 22 para SSH.
 
 <br />
 
