@@ -2,6 +2,7 @@
 *IBM Cloud* le permite usar grupos de seguridad para declarar un conjunto de reglas de filtro de IP que definen cómo manejar el tráfico entrante y saliente a las interfaces públicas y privadas de una instancia de servidor virtual.
 
 En esta guía se muestra la creación de una regla que permita la entrada de tráfico en una máquina cliente en la que se esta probando el comando ```iperf```, tambien se explican las reglas de ```SSH``` y ```ping``` que ya vienen configuradas por defecto en el grupo de seguridad.
+
 <br />
 
 ## Índice  📰
@@ -33,9 +34,11 @@ Esta regla ya viene incluida en el grupo de seguridad por defecto asigando a su 
 <br />
 
 ## Protocolo TCP para SSH :computer:
-El protocolo *Secure Shell (SSH)* se utiliza para acceder a máquinas remotas a través de una red y manejar por completo el sistema mediante un intérprete de comandos.  Este protocolo facilita las comunicaciones seguras entre dos sistemas usando una arquitectura cliente/servidor y permite a los usuarios conectarse a un host remotamente. A diferencia de otros protocolos de comunicación remota, *SSH* encripta la sesión de conexión impidiendo que se pueda obtener contraseñas no encriptadas.
+*Transmission Control Protocol (TCP)* es un protocolo de internet que permite la creación de conexiones seguras, teniendo en cuenta que el intercambio de datos requiere de la autorización entre cliente y servidor, o emisor y receptor, antes de producirse la transferencia. Una vez ambas partes autorizan la transmisión, podrá iniciarse el envío y recepción de datos. 
 
-Cuando se crea una *VPC* en *IBM Cloud*, de forma predeterminada se implementan grupos de seguridad que definen las reglas de ```IP```, permitiendo el tráfico ```TCP``` de entrada solo en el puerto 22 para SSH.
+Por otro lado, *Secure Shell (SSH)* se utiliza para acceder a máquinas remotas a través de una red, manejando por completo el sistema mediante un intérprete de comandos. Este protocolo facilita las comunicaciones seguras entre dos sistemas usando una arquitectura cliente/servidor y permite a los usuarios conectarse a un host remotamente. A diferencia de otros protocolos de comunicación remota, *SSH* encripta la sesión de conexión impidiendo que se puedan obtener contraseñas no encriptadas.
+
+Cuando se crea una *VPC* en *IBM Cloud*, de forma predeterminada se implementan grupos de seguridad que definen las reglas de ```IP```, permitiendo el tráfico ```TCP``` de entrada en el puerto ```22``` para SSH.
 
 <br />
 
